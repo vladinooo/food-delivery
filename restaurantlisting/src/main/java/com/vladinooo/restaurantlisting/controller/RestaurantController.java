@@ -13,6 +13,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/restaurant")
 @AllArgsConstructor
+@CrossOrigin
 public class RestaurantController {
 
     private final RestaurantService restaurantService;

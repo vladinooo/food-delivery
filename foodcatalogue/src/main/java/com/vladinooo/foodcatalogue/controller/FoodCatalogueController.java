@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/food-catalogue")
 @AllArgsConstructor
+@CrossOrigin
 public class FoodCatalogueController {
 
     private final FoodCatalogueService foodCatalogueService;
